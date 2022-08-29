@@ -44,7 +44,7 @@ console.log(add, subract);
 add.addEventListener("click", function () {
     let output = document.querySelector("#output");
     let result = Number (output.innerText) + 1;  //Numberを使わないとおかしくなる。
-    if (result > 10) {
+    if (result > 30) {
         result = 0;
       }
     output.innerText = result;
